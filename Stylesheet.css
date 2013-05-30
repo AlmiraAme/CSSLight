@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ background-color: #90ee90; }
+
+#titel{
+	text-align: center;
+	font-style: italic;
+	background-color: #008001;
+	font-size: 35px;
+	color: #ddffff;
+	border-bottom: 15px solid #90ee90;
+	border-top: 8px solid #90ee90;	
+}
+
+.row{
+	width: 100%;
+	height: 50%;
+	overflow: hidden;
+}
+
+.picture{
+	max-height: 80%;
+	max-width: 70%;
+	border: 10px solid #fffc01;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.picture:hover { border: 10px solid red; }
+
+.cell{
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+    -webkit-box-sizing:border-box; /* Safari */
+	border: 2px solid #006400;
+	padding: 1%;
+	background-color: #008001;
+	float: left;
+	width: 33%;
+	height: 400px;	
+}
+
+.cell2{
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+    -webkit-box-sizing:border-box; /* Safari */
+	border: 2px solid #006400;
+	padding: 1%;
+	background-color: #008001;
+	float: left;
+	width: 34%;
+	height: 400px;	
+}
+
+.cell3{
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+    -webkit-box-sizing:border-box; /* Safari */
+	border: 2px solid #006400;
+	padding: 1%;
+	background-color: #008001;
+	float:left;
+	width: 67%;
+	height: 400px;
+}
+
+.pretty-table{
+	background-color: #fffedf;
+	color: #087d00;
+	text-align: center;
+	font-style:italic;
+	width: 70%;
+	margin-left: auto;
+    margin-right: auto;
+}
+.pretty-table th, .pretty-table td { border: 1px solid #008001;} 
+.pretty-table td[class=col]{ border: 1px solid #fffedf; }
+
+div th { color:#000;}
+
+div p{
+	text-align: justify;
+	color: #e6f238;
+}
+
+p.subtekst{
+	text-align:center;
+	color: #e6f238;
+}
